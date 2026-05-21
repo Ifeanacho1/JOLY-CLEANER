@@ -5,6 +5,7 @@ import Image from '../assets/Basket Logo.png'
 const Header = () => {
   return (
     <>
+    <div className='top_header'></div>
       <header className='HeaderContainer'>
         <div className='HeaderContainerLeft'>
             <img src={Image} alt="" className='Logo'/>

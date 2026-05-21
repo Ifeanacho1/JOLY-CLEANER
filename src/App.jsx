@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
+import ServicePage from './pages/ServicePage'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     
     <BrowserRouter>
     <Routes>
+      <Route path='/' element={<ServicePage/>}/>
       <Route path="/" element={<Home />} />
     </Routes>
     </BrowserRouter>  
