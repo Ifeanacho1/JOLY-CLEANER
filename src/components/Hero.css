@@ -1,36 +1,80 @@
 .service_layout{
-     width: 1366px;
-     height: 490px;
-     background-color: aquamarine;
+     width: 1351px;
+     height:553px;
+     /* background-color: rgb(223, 19, 19); */
      font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      display: flex;
      justify-content: center;
-     /* align-items: center; */
-     gap: 5px;
+     gap: 220px;
 }
 
 .service_left{
- background-color:rgb(152, 197, 255);
-    height: 76%;
-    width: 50%;
-margin-top: 30px;
+ /* background-color:rgb(152, 197, 255); */
+    height: 380px;
+    width: 40%;
+margin-top: 80px;
+
+.hero_info{
+    width: 461px;
+    top: 247px;
+    justify-self: center;
+  margin-top: 60px;
+    height: 216px;
+    /* background: #907aca; */
+}
 
 .lundry{
     font-size: 36px;
     font-weight: 600;
     letter-spacing: 0px;
      color: #330D9E;
+     line-height: 100%;
+     font-style:Semi Bold ;
 }
 
 p{
     font-size: 20px;
     font-weight: 500;
+    font-style:Medium;
+}
+.hero-btn{
+    width: 391px;
+    height: 64px;
+    display: flex;
+    margin-top: 55px;
+    gap: 24px;
+}
+.service-btn{
+    width: 204px;
+    height: 64px;
+    border-radius: 12px;
+    padding: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    background-color:  #330D9E;
+    border: none;
+    cursor: pointer;
+}
+.service-btn2{
+    width: 163px;
+    padding: 20px;
+    height: 64px;
+    border: 2px solid #330D9E;
+    border-radius:12px;
+     color: #330D9E;
+     background: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
 }
 }
 
 .service_right{
-    height: 76%;
-    width: 50%;
-margin-top: 30px;
-background-color: rgb(252, 13, 13);  
+    height: 448px;
+    width: 434px;
+    margin-top: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+    /* background-color: rgb(235, 181, 181);   */
 }

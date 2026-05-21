@@ -1,0 +1,139 @@
+.our-service{
+   width: 1351px;
+     height:909px;
+     background-color:#D9D9D969;
+     font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     display: flex;
+} 
+
+.service-holder{
+    width: 1117px;
+    margin-top: 28px;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    margin-left: 142px;
+    /* background-color: brown; */
+
+    .text{
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+ color: #330D9E;
+    }
+
+    .layout-2{
+        width: 1117px;
+height: 720px;
+display: flex;
+flex-direction: column;
+gap: 78px;
+
+    }
+
+    .holder-top{
+        height: 321px;
+         width: 1117px;
+         display: flex;
+         gap: 140px;
+    }
+    .box{
+        width: 279px;
+height: 321px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+border-radius: 20px;
+border: 1px solid #00000066;
+background-color: white;
+ }
+    .holder-down{
+        height: 321px;
+         width: 1117px;
+          display: flex;
+         gap: 140px;
+    }
+
+    .box-2{
+        width: 279px;
+height: 321px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+border-radius: 20px;
+border: 1px solid #00000066;
+background-color: white;
+    }
+}
+.fotter{
+    width: 669px;
+    height: 80px;
+    margin-left: 385px;
+    margin-top: 20px;
+    gap: 12px;
+    font-family:   system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    h4{
+        width: 669px;
+        height: 39px;
+        font-family:   system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: #330D9E;
+    }
+    .book{
+        width: 669px;
+        height: 29px;
+font-weight: 500;
+font-style: Medium;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+    }
+    b{
+        color: #330D9E;
+    }
+}
+.text-contaier{
+    width: 279px;
+height: 104px;
+padding-top: 12px;
+padding-right: 20px;
+padding-bottom: 12px;
+padding-left: 20px;
+gap: 10px;
+
+}
+
+.text-hold{
+    width: 239px;
+height: 80px;
+gap: 8px;
+
+}
+
+h5{
+    width: 239px;
+height: 34px;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 28px;
+color: #330D9E;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.wash{
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+}
