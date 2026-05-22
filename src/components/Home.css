@@ -92,9 +92,151 @@
         align-items: center;
 
         .HomeSection2DivRightImage{
-            width: 50%;
+            width: 55%;
             height: 60vh;
             border-radius: 30px;
+        }
+    }
+}
+
+.HomeSection3{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Container to hold cards and position the arrows */
+    .carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    }
+
+    /* The horizontal scroll track */
+    .carousel-track {
+    display: flex;
+    gap: 16px; /* Spacing between cards */
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+    
+    /* Hides scrollbar for Chrome, Safari, and Opera */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    /* Hides scrollbar for IE, Edge, and Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+    }
+
+    /* Individual Image Cards */
+    .carousel-card {
+    flex: 0 0 calc(33.333% - 11px); /* Displays roughly 3 cards per view */
+    min-width: 280px; /* Prevents cards from getting too small on mobile */
+    scroll-snap-align: start;
+    border-radius: 16px; /* Rounded corners matching your image */
+    overflow: hidden;
+    }
+
+    .carousel-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* Prevents image distortion */
+    display: block;
+    }
+
+    /* Navigation Arrow Buttons */
+    .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    color: #000000;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: all 0.2s ease;
+    }
+
+    .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .prev-btn { left: -20px; }
+    .next-btn { right: -20px; }
+
+}
+
+.HomeSection4{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #330D9E;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    .HomeSection4H1{
+        width: 23.5%;
+        font-size: 45px;
+        color: white;
+        border-bottom: solid;
+        border-width: 4px;
+    }
+
+    .HomeSection4Div{
+        width: 100%;
+        height: 67vh;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-left: 2%;
+
+        .HomeSection4Img{
+            width: 37.5%;
+            height: 50vh;
+            border-radius: 20px;
+        }
+
+        .HomeSection4Aside{
+            width: 40%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            padding-left: 9%;
+            padding-top: 50px;
+            gap: 30px;
+
+            .HomeSection4Ul{
+                width: 100%;
+                height: 5vh;
+                display: flex;
+                align-items: center;
+                list-style: none;
+                gap: 2%;
+
+                .HomeSection4AsideInput{
+                    width: 10%;
+                    height: 5vh;
+                }
+
+                .HomeSection4AsideLi{
+                    font-size: 30px;
+                    color: white;
+                }
+            }
         }
     }
 }
