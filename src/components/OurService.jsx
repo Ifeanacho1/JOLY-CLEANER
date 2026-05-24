@@ -5,6 +5,7 @@ import third from "../assets/third.png"
 import forth from "../assets/forth.png"
 import fifth from "../assets/fifth.png"
 import sixth from "../assets/sixth.png"
+import Footer from "./Footer"
 const OurService = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const OurService = () => {
                     <div className="text-hold">
                         <h5>Wash & Fold</h5>
                         <p className="wash">Everyday Laundry washed, <br />
-dried, and neatly folded.</p>
+                        dried, and neatly folded.</p>
                     </div>
                 </div>
             </article>
@@ -80,7 +81,7 @@ dried, and neatly folded.</p>
             <p className="book">Book your laundry pickup today and let us <b>handle</b> the rest.</p>
         </article>
     </footer>
-    
+    <Footer/>
     </>
   )
 }
