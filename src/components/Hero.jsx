@@ -1,9 +1,12 @@
 import React from 'react'
 import "./Hero.css"
 import frame from "../assets/Frame 99.png"
+import OurService from './OurService'
+import Header from './Header'
 const Hero = () => {
   return (
     <>
+    <Header/>
       <section className='service_layout'>
       <article className='service_left'>
         <div className='hero_info'>
@@ -19,6 +22,7 @@ const Hero = () => {
             <img src={frame} alt="" />
             </article>     
       </section>
+      <OurService/>
     </>
   )
 }

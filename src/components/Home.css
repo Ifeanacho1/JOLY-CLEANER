@@ -240,3 +240,394 @@
         }
     }
 }
+
+.HomeSection5{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    .HomeSection5H1{
+        font-size: 45px;
+        color: #330D9E;
+        margin-bottom: 10px;
+    }
+
+    .HomeSection5P{
+        font-size: 29px;
+
+        .HomeSection5PSpan{
+            font-weight: bold;
+        }
+    }
+
+    .HomeSection5Article{
+        width: 100%;
+        height: 30vh;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .HomeSection5ArticleCont1{
+            width: 20%;
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .HomeSection5ArticleCont1Phone{
+                width: 40%;
+            }
+
+            .HomeSection5ArticleCont1H1{
+                font-size: 35px;
+            }
+        }
+
+        .HomeSection5ArticleCont2{
+            width: 10%;
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .HomeSection5ArticleArrow1{
+                width: 50%;
+            }
+        }
+
+        .HomeSection5ArticleCont3{
+            width: 25%;
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .HomeSection5ArticleCont3WMachine{
+                width: 30%;
+            }
+
+            .HomeSection5ArticleCont3H1{
+                font-size: 35px;
+            }
+        }
+
+        .HomeSection5ArticleCont4{
+            width: 10%;
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .HomeSection5ArticleArrow2{
+                width: 50%;
+            }
+        }
+
+        .HomeSection5ArticleCont5{
+            width: 20%;
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .HomeSection5ArticleCont5DTruck{
+                width: 40%;
+            }
+
+            .HomeSection5ArticleCont5H1{
+                font-size: 35px;
+            }
+        }
+    }
+}
+
+.HomeSection6{
+    width: 100%;
+    height: 73vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFEFEF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    .HomeSection6H1{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 45px;
+        color: #330D9E;
+    }
+
+    .HomeSection6Article{
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .HomeSection6ArticleDiv1{
+            width: 20%;
+            height: 50vh;
+            border-radius: 20px;
+            border: solid;
+            border-width: 1px;
+            border-color: gray;
+            background-color: white;
+
+            .Wash{
+                width: 100%;
+            }
+
+            .WashFold{
+                font-size: 30px;
+                margin-top: 30px;
+                margin-left: 10%;
+                color: #330D9E;
+            }
+
+            .WashFoldP{
+                font-size: 20px;
+                margin-left: 10%;
+            }
+        }
+
+        .HomeSection6ArticleDiv2{
+            width: 20%;
+            height: 50vh;
+            border-radius: 20px;
+            border: solid;
+            border-width: 1px;
+            border-color: gray;
+            background-color: white;
+
+            .Dry{
+                width: 100%;
+            }
+
+            .DryCleaning{
+                font-size: 30px;
+                margin-top: 30px;
+                margin-left: 10%;
+                color: #330D9E;
+            }
+
+            .DryCleaningP{
+                font-size: 20px;
+                margin-left: 10%;
+            }
+        }
+
+        .HomeSection6ArticleDiv3{
+            width: 20%;
+            height: 50vh;
+            border-radius: 20px;
+            border: solid;
+            border-width: 1px;
+            border-color: gray;
+            background-color: white;
+
+            .Iron{
+                width: 100%;
+            }
+
+            .Ironing{
+                font-size: 30px;
+                margin-top: 30px;
+                margin-left: 10%;
+                color: #330D9E;
+            }
+
+            .IroningP{
+                font-size: 20px;
+                margin-left: 10%;
+            }
+        }
+    }
+
+    .HomeSection6H2{
+        font-size: 20px;
+        color: #330D9E;
+        border-bottom: solid;
+        border-width: 2px;
+        border-color: #330D9E;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+.HomeSection7{
+    width: 100%;
+    height: 65vh;
+    background-color: #330D9E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    .HomeSection7P1{
+        font-size: 43px;
+        color: white;
+
+        .P1Span{
+            font-weight: bold;
+        }
+    }
+
+    .HomeSection7Article{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1%;
+
+        .HomeSection7ArticleDiv1{
+            width: 30%;
+            height: 25vh;
+            border-radius: 20px;
+            background-color: #EEE8E8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            .HomeSection7ArticleDiv1Section{
+                width: 100%;
+                height: 12vh;
+                display: flex;
+                align-items: center;
+                padding-left: 2.5%;
+                gap: 2%;
+
+                .SteveImage{
+                    width: 13%;
+                    border-radius: 50px;
+                }
+
+                .SteveStar{
+                    width: 5%;
+                }
+            }
+
+            .HomeSection7ArticleDiv1P{
+                font-size: 23px;
+                font-weight: bold;
+            }
+
+            .Steve{
+                width: 95%;
+                font-size: 18px;
+                margin-top: 20px;
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+
+        .HomeSection7ArticleDiv2{
+            width: 30%;
+            height: 25vh;
+            border-radius: 20px;
+            background-color: #EEE8E8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .HomeSection7ArticleDiv2Section{
+                width: 100%;
+                height: 12vh;
+                display: flex;
+                align-items: center;
+                padding-left: 2.5%;
+                gap: 2%;
+
+                .MichaelImage{
+                    width: 13%;
+                    border-radius: 50px;
+                }
+
+                .MichaelStar{
+                    width: 5%;
+                }
+            }
+
+            .HomeSection7ArticleDiv2P{
+                font-size: 23px;
+                font-weight: bold;
+            }
+
+            .Michael{
+                width: 95%;
+                font-size: 18px;
+                margin-top: 20px;
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+
+        .HomeSection7ArticleDiv3{
+            width: 30%;
+            height: 25vh;
+            border-radius: 20px;
+            background-color: #EEE8E8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .HomeSection7ArticleDiv3Section{
+                width: 100%;
+                height: 12vh;
+                display: flex;
+                align-items: center;
+                padding-left: 2.5%;
+                gap: 2%;
+
+                .SarahImage{
+                    width: 13%;
+                    height: 8vh;
+                    border-radius: 50px;
+                }
+
+                .SarahStar{
+                    width: 5%;
+                }
+            }
+
+            .HomeSection7ArticleDiv3P{
+                font-size: 23px;
+                font-weight: bold;
+            }
+
+            .Sarah{
+                width: 95%;
+                font-size: 18px;
+                margin-top: 20px;
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
+
+    .HomeSection7P2{
+        font-size: 35px;
+        color: white;
+
+        .P2Span{
+            font-weight: bold;
+        }
+    }
+}
