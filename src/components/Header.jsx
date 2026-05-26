@@ -18,7 +18,7 @@ const Header = () => {
         <div className='HeaderContainerCenter'>
             <h1 className='HeaderContainerCenterH1'onClick={() => Nav ('/')}>HOME</h1>
             <h2 className='HeaderContainerCenterH2'onClick={() => Nav ('/About')}>ABOUT</h2>
-            <h3 className='HeaderContainerCenterH3'onClick={() => Nav ('/Hero')}>SERVICES</h3>
+            <h3 className='HeaderContainerCenterH3'onClick={() => Nav ('/ServicePage')}>SERVICES</h3>
         </div>
         <div className='HeaderContainerRight'>
             <button className='HeaderContainerRightButton'>BOOK A PICKUP</button>
