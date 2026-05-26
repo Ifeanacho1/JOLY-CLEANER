@@ -137,7 +137,7 @@ const Home = () => {
                 </p>
             </div>
         </article>
-        <h2 className='HomeSection6H2'onClick={() => Nav ('/Hero')}>See more
+        <h2 className='HomeSection6H2'onClick={() => Nav ('/ServicePage')}>See more
             <FaChevronRight />
         </h2>
       </div>

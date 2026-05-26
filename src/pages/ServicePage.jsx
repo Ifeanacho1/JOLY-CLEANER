@@ -5,7 +5,6 @@ import OurService from "../components/OurService"
 const ServicePage = () => {
   return (
    <>
-    <Header/>
     <Hero/>
     <OurService/>
    </>
