@@ -1,0 +1,113 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.laundryHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.laundryWrapper {
+  width: 45%;
+}
+.text {
+  border-bottom: 2px solid black;
+  width: 65%;
+}
+
+.laundrytext {
+  font-size: 40px;
+  color: blue;
+}
+.laundryContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 25px;
+  font-size: 20px;
+}
+
+.storyContainer {
+  display: flex;
+  gap: 50px;
+}
+.storyContainer img {
+  width: 55%;
+}
+.storyContainer section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+  font-size: 20px;
+}
+.storyHeading {
+  color: #512bb1;
+  font-weight: bolder;
+  font-size: 40px;
+  border-bottom: 2px solid #512bb1;
+  width: 35%;
+}
+.detailHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.detailWrapper {
+  font-size: 40px;
+  color: blue;
+}
+.detailContainer {
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+  height: 30vh;
+  box-shadow: 1px 1px 5px 1px gray;
+  border-radius: 10px;
+}
+.Container img {
+  border: 2px solid black;
+  width: 40px;
+  height: 50px;
+}
+.logo {
+  color: #512bb1;
+  font-size: 20px;
+}
+.Container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+span {
+  display: flex;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.logoHolder {
+  color: #512bb1;
+  font-size: 40px;
+  font-weight: bold;
+}
+.scheduleButton {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background: #512bb1;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
