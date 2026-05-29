@@ -89,7 +89,7 @@ const About = () => {
      </div>
      <div className='footer'>
       <p className='logoHolder'>Ready for stress free laundry ?</p>
-      <p>let aqua cleaners handle your laundry while you focus on what matters</p>
+      <p>let aqua cleaners handle your laundry while you focus on what matter</p>
       <button className='scheduleButton'>Schedule pickup</button>
      </div>
     </div>
